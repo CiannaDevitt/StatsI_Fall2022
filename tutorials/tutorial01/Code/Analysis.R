@@ -47,13 +47,13 @@ CI_upper <- qnorm(0.95,
                   mean = mean(data$height),
                   sd = (sd(data$height)/sqrt(length(data$height)))
 )
-
+C_
 matrix(c(CI_lower, CI_upper), ncol = 2,
        dimnames = list("",c("Lower", "Upper")))
 
 # Calculate 90 percent confidence intervals using a t distribution
 se <- sd(data$height)/sqrt(length(data$height)) # Create an object with our standard error
-t_score <- qt(.05, df = length(data$height)-1, lower.tail = FALSE)
+t_score <- histqt(.05, df = length(data$height)-1, lower.tail = FALSE)
 CI_lower_t <- mean(data$height) - (se * t_score)
 CI_upper_t <- mean(data$height) + (se * t_score)
 
