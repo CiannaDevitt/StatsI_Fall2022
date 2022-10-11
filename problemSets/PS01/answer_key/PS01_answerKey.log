@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.18)  22 SEP 2022 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.18)  5 OCT 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PS01.tex
-(./PS01.tex
+**PS01_answerKey.tex
+(./PS01_answerKey.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -780,71 +780,96 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count319
 \multirow@dima=\skip64
 \bigstrutjot=\dimen303
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count320
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen304
+\captionmargin@=\dimen305
+\captionwidth=\dimen306
+\caption@tempdima=\dimen307
+\caption@indent=\dimen308
+\caption@parindent=\dimen309
+\caption@hangindent=\dimen310
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count322
+\c@subtable=\count323
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count324
 \lst@gtempboxa=\box70
 \lst@token=\toks51
-\lst@length=\count321
-\lst@currlwidth=\dimen304
-\lst@column=\count322
-\lst@pos=\count323
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count324
-\lst@lineno=\count325
-\lst@maxwidth=\dimen307
+\lst@length=\count325
+\lst@currlwidth=\dimen311
+\lst@column=\count326
+\lst@pos=\count327
+\lst@lostspace=\dimen312
+\lst@width=\dimen313
+\lst@newlines=\count328
+\lst@lineno=\count329
+\lst@maxwidth=\dimen314
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count326
-\lst@skipnumbers=\count327
+\c@lstnumber=\count330
+\lst@skipnumbers=\count331
 \lst@framebox=\box71
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-\c@hyp=\count328
+\c@hyp=\count332
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
+\l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box72
 )
-(./PS01.aux)
-\openout1 = `PS01.aux'.
+(./PS01_answerKey.aux)
+\openout1 = `PS01_answerKey.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen308
+\scratchcounter=\count334
+\scratchdimen=\dimen315
 \scratchbox=\box73
-\nofMPsegments=\count331
-\nofMParguments=\count332
+\nofMPsegments=\count335
+\nofMParguments=\count336
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen309
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen316
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -855,20 +880,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.47998pt on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
+Package xypdf Info: Line width: 0.47998pt on input line 68.
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -880,16 +905,19 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
- (./PS01.out) (./PS01.out)
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
+ (./PS01_answerKey.out) (./PS01_answerKey.out)
 \@outlinefile=\write7
-\openout7 = `PS01.out'.
+\openout7 = `PS01_answerKey.out'.
 
-\c@lstlisting=\count337
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count341
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -901,8 +929,9 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 84.
- (./PS01.R
+nput line 85.
+
+(./PS1_answerKey.R
 consecutive:
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
 0.
@@ -912,46 +941,145 @@ File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
+(./PS1_answerKey.R
+consecutive:
 [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./PS01.R) [2] (./PS01.aux)
-Package rerunfilecheck Info: File `PS01.out' has not changed.
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+(./PS1_answerKey.R
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+(./PS1_answerKey.R
+consecutive:
+) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+(./PS1_answerKey.R
+consecutive:
+) (./PS1_answerKey.R
+consecutive:
+) [3] (./PS1_answerKey.R
+consecutive:
+)
+<plot_2a.pdf, id=72, 505.89pt x 505.89pt>
+File: plot_2a.pdf Graphic file (type pdf)
+<use plot_2a.pdf>
+Package pdftex.def Info: plot_2a.pdf  used on input line 172.
+(pdftex.def)             Requested size: 399.29463pt x 399.30135pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+(./PS1_answerKey.R
+consecutive:
+)
+<plot_2b.pdf, id=74, 505.89pt x 505.89pt>
+File: plot_2b.pdf Graphic file (type pdf)
+<use plot_2b.pdf>
+Package pdftex.def Info: plot_2b.pdf  used on input line 193.
+(pdftex.def)             Requested size: 352.31625pt x 352.32199pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5 <./plot_2a.pdf>] [6 <./plot_2b.pdf>] (./PS1_answerKey.R
+consecutive:
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9
+3.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+)
+<plot_2c2.pdf, id=114, 578.16pt x 505.89pt>
+File: plot_2c2.pdf Graphic file (type pdf)
+<use plot_2c2.pdf>
+Package pdftex.def Info: plot_2c2.pdf  used on input line 212.
+(pdftex.def)             Requested size: 232.53001pt x 203.46397pt.
+<plot_2c3.pdf, id=115, 578.16pt x 505.89pt>
+File: plot_2c3.pdf Graphic file (type pdf)
+<use plot_2c3.pdf>
+Package pdftex.def Info: plot_2c3.pdf  used on input line 217.
+(pdftex.def)             Requested size: 232.53001pt x 203.46397pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7
+
+] [8 <./plot_2c2.pdf> <./plot_2c3.pdf>] (./PS01_answerKey.aux)
+Package rerunfilecheck Info: File `PS01_answerKey.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26090 strings out of 478994
- 444997 string characters out of 5858184
- 967487 words of memory out of 5000000
- 43079 multiletter control sequences out of 15000+600000
- 414216 words of font info for 72 fonts, out of 8000000 for 9000
+ 27541 strings out of 478994
+ 472412 string characters out of 5858184
+ 1162034 words of memory out of 5000000
+ 44412 multiletter control sequences out of 15000+600000
+ 415329 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,6n,89p,3236b,2123s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,8n,89p,3246b,2125s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PS01.pdf (2 pages, 112504 bytes).
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on PS01_answerKey.pdf (8 pages, 248583 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
