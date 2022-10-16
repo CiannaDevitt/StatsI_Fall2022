@@ -11,7 +11,7 @@ dat <- midwest # A built-in dataset
 ## Explore data
 ?midwest
 # use your own code here to explore
-
+summary(midwest)
 
 ### ggplot
 
@@ -22,8 +22,8 @@ dat <- midwest # A built-in dataset
 # Science" book, which is available online: https://r4ds.had.co.nz/data-visualisation.html
 
 # A simple ggplot:
-ggplot(aes(x = x1, y = y1), # We use the aes() function to supply an x and y argument
-       data = anscombe) + # We use the `+` operator to add an additional geom
+ggplot(aes(x = percollege, y = percbelowpoverty), # We use the aes() function to supply an x and y argument
+       data = dat) + # We use the `+` operator to add an additional geom
   geom_point()
 
 # To use ggplot, rather than the plot() function, we call the ggplot() 
@@ -54,6 +54,8 @@ install.packages("psych")
 library(psych)
 
 cor.plot(Filter(is.numeric, dat))
+# Darker the blue the closer to a positive correalation and the deeper the red the closer to a negative correlation.
+
 
 # Alternatively, we might take a subset of columns and use pairs() to
 # visualise the correlations.
@@ -61,6 +63,8 @@ cor.plot(Filter(is.numeric, dat))
 pairs(dat[c("poptotal", "percwhite", "percblack", "perchsd", 
             "percollege", "percprof", "percbelowpoverty")],
       upper.panel = NULL) # What does this argument change?
+
+ggplot(aes(x= percollege, y= percbelowpoverty), data= dat) + geom_point()
 
 # Exercise: from your visual exploration of the scatter plots of 
 # correlation, pick two variables to run the cor() function on. 
@@ -119,7 +123,7 @@ dev.off() # To prevent plotting errors below
 # the independent variable, and percent below poverty is the outcome, or
 # dependent variable.
 
-coll_pov <- lm(, # add the correct code here 
+coll_pov <- lm(percbelowpoverty ~ percollege, 
                data = dat)
 summary(coll_pov)
 
@@ -132,9 +136,9 @@ abline(coll_pov, # our regression model
        col = "blue")
 
 # How would we plot this using ggplot?
-ggplot(aes(x = , 
-           y = ), 
-       data = ) +
+ggplot(aes(x = percollege, 
+           y = percbelowpoverty), 
+       data = dat) +
   geom_point() +
   geom_smooth(method = "lm", formula = y ~ x)
 
